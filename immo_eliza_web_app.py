@@ -2,8 +2,6 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-# import pickle, title, price = model_pred(data)
-
 def estimate_price(data):
     with open('model.pkl', 'rb') as file:
         model = pickle.load(file)
