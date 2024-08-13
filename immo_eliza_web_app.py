@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import scikit-learn
 import pandas as pd
 
 # import pickle, title, price = model_pred(data)
